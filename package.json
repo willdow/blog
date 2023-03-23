@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Talan Welcome blog",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-documentation": "^4.8.2",
+    "@strapi/plugin-i18n": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/strapi": "4.8.2",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-menus": "^1.3.2"
+  },
+  "author": {
+    "name": "Willyan LIN"
+  },
+  "strapi": {
+    "uuid": "0161ac6f-336b-4f90-8772-8cfb817709c2"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
